@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hot Flow Records : on signe les nouveaux talents</title>
+<meta name="description" content="Hot Flow Records recrute : rappeurs, chanteurs, beatmakers, vidéastes, ingénieurs son. Envoie ta démo.">
+<meta name="color-scheme" content="dark">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Archivo:wght@400;600;800&display=swap">
+<style>
+:root{color-scheme:dark;--hot:#E8321C;--ink:#0C0C0C;--bone:#F3ECDD;--soft:#a7a094;--panel:#161515;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box;margin:0}
+body{background:var(--ink);color:var(--bone);font-family:Archivo,system-ui,sans-serif;font-size:17px;line-height:1.6}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--bone);outline-offset:3px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 clamp(20px,5vw,40px)}
+.b{font-family:"Big Shoulders Display",Impact,"Arial Narrow",sans-serif;font-weight:900;text-transform:uppercase;line-height:.92;letter-spacing:.005em}
+.top{background:var(--hot);color:var(--ink);position:relative;overflow:hidden}
+header .wrap{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;padding-block:18px}
+.brand{text-decoration:none;font-size:1.7rem}
+nav{display:flex;gap:24px;font-weight:800}
+nav a{text-decoration:none}
+nav a:hover{text-decoration:underline;text-underline-offset:5px}
+.hero .wrap{position:relative;padding-block:clamp(30px,6vw,80px) clamp(50px,9vw,120px)}
+.hero h1{font-size:clamp(3.6rem,11.5vw,10rem);max-width:9.5em;position:relative;z-index:2}
+.hero p{max-width:38ch;margin-top:26px;font-size:1.2rem;font-weight:600;position:relative;z-index:2}
+.stamp{position:absolute;right:-9%;top:50%;width:min(620px,68vw);transform:translateY(-50%) rotate(-9deg);opacity:.22;z-index:1;pointer-events:none}
+.btn{display:inline-block;margin-top:28px;padding:16px 34px;background:var(--ink);color:var(--bone);font-weight:800;text-decoration:none;position:relative;z-index:2}
+.btn:hover{background:var(--bone);color:var(--ink)}
+section{padding:clamp(54px,8vw,110px) 0}
+h2{font-size:clamp(2.8rem,8vw,6rem);margin-bottom:16px;max-width:11em}
+.lead{max-width:54ch;color:var(--soft);margin-bottom:42px;font-size:1.1rem}
+.roles{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:0;border:2px solid var(--bone)}
+.role{padding:30px;border:1px solid var(--bone);display:flex;flex-direction:column;justify-content:space-between;gap:26px;text-decoration:none;min-height:240px;transition:background .15s}
+.role:hover{background:var(--hot);color:var(--ink)}
+.role h3{font-size:2.4rem;margin-bottom:10px}
+.role p{font-size:1.05rem}
+.role span{font-weight:800}
+.steps{background:var(--panel);border-block:2px solid var(--hot)}
+.steps ol{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:34px;counter-reset:s}
+.steps li{counter-increment:s}
+.steps li::before{content:counter(s);font-family:"Big Shoulders Display",Impact,sans-serif;font-weight:900;font-size:5rem;line-height:1;color:var(--hot);display:block}
+.steps h3{font-size:1.9rem;margin:6px 0 8px}
+.steps p{color:var(--soft)}
+.cta{background:var(--hot);color:var(--ink)}
+.cta h2{max-width:10em}
+.cta p{max-width:46ch;font-weight:600;margin-bottom:6px}
+.mail{display:inline-block;margin-top:12px;font-size:clamp(1.8rem,6vw,3.8rem);text-decoration:none;overflow-wrap:anywhere;border-bottom:6px solid var(--ink)}
+.mail:hover{background:var(--ink);color:var(--hot)}
+.links{display:flex;gap:24px;flex-wrap:wrap;margin-top:28px;font-weight:800}
+footer{padding:26px 0;color:var(--soft);font-size:.9rem}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="top">
+<header><div class="wrap">
+  <a class="brand b" href="#top">Hot Flow Records</a>
+  <nav><a href="#talents">On recrute</a><a href="#process">Comment ça marche</a><a href="#contact">Envoie ta démo</a></nav>
+</div></header>
+<main id="top">
+  <div class="hero"><div class="wrap">
+    <img class="stamp" src="logo.png" alt="">
+    <h1 class="b">Là où les talents prennent feu.</h1>
+    <p>Hot Flow Records signe les voix, les beats et les regards de demain. Si ça te brûle de l’intérieur, c’est ici que ça sort.</p>
+    <a class="btn" href="#talents">Voir qui on cherche</a>
+  </div></div>
+</main>
+</div>
+
+<section id="talents"><div class="wrap">
+  <h2 class="b">On cherche ceux qui font chauffer le son.</h2>
+  <p class="lead">Quel que soit ton rôle, on ne te demande qu’une chose : ta démo. Clique sur ton profil et envoie-nous ton travail.</p>
+  <div class="roles">
+    <a class="role" href="mailto:contact@hotflowrecords.com?subject=D%C3%A9mo%20Rappeur"><div><h3 class="b">Rappeurs</h3><p>Ta plume est une arme. Montre-nous le tir.</p></div><span>Envoie ta démo</span></a>
+    <a class="role" href="mailto:contact@hotflowrecords.com?subject=D%C3%A9mo%20Chanteur%20ou%20chanteuse"><div><h3 class="b">Chanteurs et chanteuses</h3><p>Une voix qui fait taire toute la salle.</p></div><span>Envoie ta démo</span></a>
+    <a class="role" href="mailto:contact@hotflowrecords.com?subject=D%C3%A9mo%20Beatmaker"><div><h3 class="b">Beatmakers</h3><p>Ta prod fait bouger les têtes avant le premier couplet.</p></div><span>Envoie ta démo</span></a>
+    <a class="role" href="mailto:contact@hotflowrecords.com?subject=D%C3%A9mo%20Vid%C3%A9aste"><div><h3 class="b">Vidéastes</h3><p>Tu filmes la rue comme du cinéma. Cadre-nous ça.</p></div><span>Envoie ta démo</span></a>
+    <a class="role" href="mailto:contact@hotflowrecords.com?subject=D%C3%A9mo%20Ing%C3%A9nieur%20son"><div><h3 class="b">Ingénieurs son</h3><p>Tu entends ce que les autres ne captent pas.</p></div><span>Envoie ta démo</span></a>
+    <a class="role" href="mailto:contact@hotflowrecords.com?subject=D%C3%A9mo%20Autre%20talent"><div><h3 class="b">Tous les autres talents</h3><p>DJ, graphistes, photographes, managers : si ça chauffe, on en parle.</p></div><span>Envoie ta démo</span></a>
+  </div>
+</div></section>
+
+<section id="process" class="steps"><div class="wrap">
+  <h2 class="b">Du premier mail au premier son.</h2>
+  <ol>
+    <li><h3 class="b">Envoie ta démo</h3><p>Un lien privé vers ton travail et quelques mots sur toi. C’est tout.</p></li>
+    <li><h3 class="b">On t’écoute</h3><p>Toute l’équipe regarde chaque candidature, sans filtre ni favoris.</p></li>
+    <li><h3 class="b">On se rencontre</h3><p>Si ça match, on se voit pour parler de ton projet et de ta direction.</p></li>
+    <li><h3 class="b">On met le feu</h3><p>Signature, studio, clips, sortie : on te donne les moyens de monter.</p></li>
+  </ol>
+</div></section>
+
+<section id="contact" class="cta"><div class="wrap">
+  <h2 class="b">Ton flow est chaud ? Envoie ta démo.</h2>
+  <p>Tout le monde postule pareil : une démo, un lien, quelques mots sur toi. Rappeur ou chanteur, 2 à 3 morceaux. Beatmaker, tes meilleures prods. Vidéaste, ton showreel. Ingé son, un avant/après de mix.</p>
+  <a class="mail b" href="mailto:contact@hotflowrecords.com">contact@hotflowrecords.com</a>
+  <div class="links"><a href="#">Instagram</a><a href="#">YouTube</a><a href="#">Spotify</a><a href="#">TikTok</a></div>
+</div></section>
+<footer><div class="wrap">© 2026 Hot Flow Records. Tous droits réservés.</div></footer>
+</body>
+</html>
